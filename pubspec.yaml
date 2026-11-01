@@ -1,0 +1,13 @@
+name: serial_port_core
+description: "The SerialPort interface shared by usb_serial_next and bluetooth_serial_next: write a protocol once and run it over USB or Bluetooth."
+version: 0.1.0
+repository: https://github.com/Zalexei/serial_port_core
+issue_tracker: https://github.com/Zalexei/serial_port_core/issues
+topics: [serial, uart, usb, bluetooth, arduino]
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
